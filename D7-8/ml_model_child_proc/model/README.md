@@ -14,3 +14,8 @@ Depending on the tensorflow you want to install (CPU or GPU version) <br/>
 ## Using the model
 In your command line:<br/>
 `python predict.py -p <image_path>`
+
+## ON UBUNTU
+PLEASE CHANGE "python" to "python3" in all the commands.
+This means running the model with : 
+`python3 predict.py -p <image_path>`
