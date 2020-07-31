@@ -5,8 +5,6 @@ import numpy as np
 import getopt
 import sys
 
-from tensorflow.python.platform.tf_logging import error
-
 
 def predict(path):
     model = tf.keras.models.load_model(sys.path[0]+'/model_98.h5')
