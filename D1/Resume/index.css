@@ -11,6 +11,10 @@ h3{
     display: block;
 }
 
+li{
+    padding: 10px;
+}
+
 section{
     display: flex;
 }
