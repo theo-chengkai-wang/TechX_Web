@@ -4,7 +4,7 @@ function handleColorChange(){
     document.getElementById("container").style.background=`linear-gradient(75deg, ${nColor1},${nColor2})`;
 }
 
-function handleClick(){
+function handleButtonClick(){
     document.getElementById("color1").value="#90ee90";
     document.getElementById("color2").value="#0000ff";
     document.getElementById("container").style.background=`linear-gradient(75deg, #90ee90,#0000ff)`;

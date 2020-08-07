@@ -13,7 +13,7 @@ body {
 
 .container>* {
     margin: 12px;
-
+    color: white;
 }
 
 .inputColor {
