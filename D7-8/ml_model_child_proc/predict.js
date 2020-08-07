@@ -1,10 +1,10 @@
 const exec = require('child_process').exec;
 
 //turn callback to promise
-function predict(path){
-    return new Promise((resolve,reject)=>{
-        exec(`python ./model/predict.py -p ${path}`,function(err,stdout,stderr){
-            if(err) reject(stderr);
+function predict(path) {
+    return new Promise((resolve, reject) => {
+        exec(`python ./model/predict.py -p ${path}`, function (err, stdout, stderr) {
+            if (err) reject(stderr);
             resolve(stdout);
         })
     })

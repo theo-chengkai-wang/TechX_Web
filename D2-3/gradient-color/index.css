@@ -1,5 +1,9 @@
-.container{
-    width:100vw;
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,20 +11,20 @@
     justify-content: center;
 }
 
-.container > * {
+.container>* {
     margin: 12px;
-    
+
 }
 
-.inputColor{
+.inputColor {
     padding: none;
     border: none;
 }
 
-button{
+button {
     background-color: yellow;
 }
 
-button:hover{
+button:hover {
     background-color: yellowgreen;
 }
